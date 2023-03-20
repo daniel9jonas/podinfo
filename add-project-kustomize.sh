@@ -4,4 +4,4 @@ flux create kustomization podinfo \
   --path="./kustomize" \
   --prune=true \
   --interval=5m \
-  --export > ~/zalf/eks/eks-anywhere-flux/clusters/mgmt/test-pod/kustomization.yaml
+  --export > ~/zalf/eks/eks-anywhere-flux/clusters/mgmt/test-pod/flux_kustomization.yaml
